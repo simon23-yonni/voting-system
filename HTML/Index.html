@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Voting System</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Online Voting System</h1>
+
+  <div id="candidates">
+    <h2>Candidates:</h2>
+    <ul id="candidate-list"></ul>
+  </div>
+
+  <div id="voting-form">
+    <h2>Vote:</h2>
+    <form id="vote-form">
+      <input type="radio" name="candidate" value="candidate1"> Candidate 1<br>
+      <input type="radio" name="candidate" value="candidate2"> Candidate 2<br>
+      <input type="radio" name="candidate" value="candidate3"> Candidate 3<br>
+      <input type="submit" value="Submit Vote">
+    </form>
+  </div>
+
+  <div id="results">
+    <h2>Results:</h2>
+    <ul id="result-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
